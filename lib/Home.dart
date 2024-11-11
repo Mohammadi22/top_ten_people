@@ -57,7 +57,7 @@ class _HomeState extends State<Home> {
             children: [
               Center(
                 child: Text("Here are the list of the guys who exist on the top list of the Richest people in the world",
-                style: TextStyle(color: Colors.greenAccent,fontSize: 25),),
+                style: TextStyle(color: Colors.black,fontSize: 25),),
               ),
               SizedBox(
                 height: 10,
