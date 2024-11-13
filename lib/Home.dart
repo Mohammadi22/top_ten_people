@@ -42,9 +42,9 @@ class _HomeState extends State<Home> {
                         child: GestureDetector(
                           onTap: () {
                             setState(() {
-                              
+                               Navigator.push(context, MaterialPageRoute(builder: (c)=>About_me()));
                             });
-                            Navigator.push(context, MaterialPageRoute(builder: (c)=>About_me()));
+                           
                           },
                           child: Text(
                             "About",
@@ -185,11 +185,13 @@ class _HomeState extends State<Home> {
                   child: Card(
                     child: ListTile(
                       trailing: Icon(Icons.line_axis),
-                      leading: Text("5",style: TextStyle(fontSize: 40),
-                      ),
-                      title: Text(
-                        "Mark Zuckerberg",
-                        style: TextStyle(fontSize: 40, color: Colors.black),
+                      leading: CircleAvatar(backgroundImage: AssetImage('assets/tt.jpg'),
+                      radius: 100.0,),
+                      title: Center(
+                        child: Text(
+                          " وارن بافت",
+                          style: TextStyle(fontSize: 40, color: Colors.black,fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
@@ -205,11 +207,16 @@ class _HomeState extends State<Home> {
                   child: Card(
                     child: ListTile(
                       trailing: Icon(Icons.line_axis),
-                      leading: Text("6",style: TextStyle(fontSize: 40),
+                      leading: CircleAvatar(backgroundImage: AssetImage('assets/Mark_.jpg'),
+                      radius: 100.0,
                       ),
-                      title: Text(
-                        "Bill Gates",
-                        style: TextStyle(fontSize: 40, color: Colors.black),
+                      title: Center(
+                        child: Center(
+                          child: Text(
+                            " مارک زاکربرگ",
+                            style: TextStyle(fontSize: 40, color: Colors.black,fontWeight: FontWeight.bold),
+                          ),
+                        ),
                       ),
                     ),
                   ),
@@ -225,11 +232,14 @@ class _HomeState extends State<Home> {
                   child: Card(
                     child: ListTile(
                       trailing: Icon(Icons.line_axis),
-                      leading: Text("7",style: TextStyle(fontSize: 40),
+                      leading: CircleAvatar(backgroundImage: AssetImage('assets/bill-gates3501.jpg'),
+                      radius: 100.0,
                       ),
-                      title: Text(
-                        "Bill Gates",
-                        style: TextStyle(fontSize: 40, color: Colors.black),
+                      title: Center(
+                        child: Text(
+                          "بیل گیتس",
+                          style: TextStyle(fontSize: 40, color: Colors.black,fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
@@ -245,11 +255,14 @@ class _HomeState extends State<Home> {
                   child: Card(
                     child: ListTile(
                       trailing: Icon(Icons.line_axis),
-                      leading: Text("8",style: TextStyle(fontSize: 40),
+                      leading: CircleAvatar(backgroundImage: AssetImage('assets/larry_page.jpg'),
+                      radius: 100.0,
                       ),
-                      title: Text(
-                        "Larry Page",
-                        style: TextStyle(fontSize: 40, color: Colors.black),
+                      title: Center(
+                        child: Text(
+                          "لری پیچ",
+                          style: TextStyle(fontSize: 40, color: Colors.black,fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
@@ -265,11 +278,13 @@ class _HomeState extends State<Home> {
                   child: Card(
                     child: ListTile(
                       trailing: Icon(Icons.line_axis),
-                      leading: Text("9",style: TextStyle(fontSize: 40),
-                      ),
-                      title: Text(
-                        "Steve Ballmer",
-                        style: TextStyle(fontSize: 40, color: Colors.black),
+                      leading: CircleAvatar(backgroundImage: AssetImage('assets/steven.jpg'),
+                      radius: 100.0),
+                      title: Center(
+                        child: Text(
+                          "استیو بالمر",
+                          style: TextStyle(fontSize: 40, color: Colors.black,fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
@@ -285,11 +300,14 @@ class _HomeState extends State<Home> {
                   child: Card(
                     child: ListTile(
                       trailing: Icon(Icons.line_axis),
-                      leading: Text("10",style: TextStyle(fontSize: 40),
+                      leading: CircleAvatar(backgroundImage: AssetImage('assets/sergi-berin.webp'),
+                      radius: 100.0,
                       ),
-                      title: Text(
-                        "Sergey Brin",
-                        style: TextStyle(fontSize: 40, color: Colors.black),
+                      title: Center(
+                        child: Text(
+                          "سرگی برین",
+                          style: TextStyle(fontSize: 40, color: Colors.black,fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
