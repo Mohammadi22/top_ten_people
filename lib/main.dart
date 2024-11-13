@@ -29,18 +29,20 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepPurple,
         body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        CircleAvatar(maxRadius: 50,
+        CircleAvatar(maxRadius: 80,
        child: Image.asset('assets/sont.jpg'),
         ),
         // SizedBox(height: 15,),
-        Text("Abdullah Mohammadi"),
+        Text("Abdullah Mohammadi",style: TextStyle(fontWeight: FontWeight.bold),),
+        SizedBox(height: 10,),
         Center(
             child: Text(
-          "Top Ten Rich people ",
-          style: TextStyle(fontSize: 35, color: Colors.black),
+          "ده فرد ثروتمند جهان ",
+          style: TextStyle(fontSize: 35, color: Colors.black,fontWeight: FontWeight.bold),
         ),),
         SizedBox(height: 15,),
         Text("V 0.2.3.1",style: TextStyle(fontSize: 35,color: Colors.black),
