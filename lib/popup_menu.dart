@@ -41,14 +41,7 @@ class About_me extends StatelessWidget {
                       textDirection: TextDirection.rtl,
                     ),
                   ),
-                  Container(
-                    width: double.infinity,
-                    color: Color.fromARGB(255, 203, 216, 228),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(fontSize: 20, color: Colors.white),
-                    ),
-                  )
+                
                 ],
               ),
             ],
