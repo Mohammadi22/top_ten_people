@@ -1,9 +1,23 @@
+
+
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 ////////ایلان ماستک
 
 class ElonMask extends StatelessWidget {
-  const ElonMask({super.key});
+
+final Map<String, String> person = {'name': 'ایلان ماسک'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
+
 
   @override
   Widget build(BuildContext context) {
@@ -49,12 +63,18 @@ class ElonMask extends StatelessWidget {
                     child: Container(
                       width: 200,
                       color: Color.fromARGB(255, 39, 39, 41),
-                      child: Text(
-                        "More Details....",
-                        style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold),
+                      child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['name']}';
+              _launchURL(url);
+                      },
+                        child: Text(
+                          "More Details....",
+                          style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   )
@@ -69,7 +89,16 @@ class ElonMask extends StatelessWidget {
 //2222222 حف بروزس
 
 class Jeff_Bezos extends StatelessWidget {
-  const Jeff_Bezos({super.key});
+  
+final Map<String, String> person = {'name': ' جف بیزوس'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -110,12 +139,18 @@ class Jeff_Bezos extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['name']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -129,7 +164,16 @@ class Jeff_Bezos extends StatelessWidget {
 //3333333333333برنارد آرنو (Bernard Arnault)
 
 class Bernard_Arnault extends StatelessWidget {
-  const Bernard_Arnault({super.key});
+  
+final Map<String, String> person = {'name': ' برنارد آرنو'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -170,12 +214,18 @@ class Bernard_Arnault extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['name']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -189,7 +239,16 @@ class Bernard_Arnault extends StatelessWidget {
 //444444444444لری الیسون (Larry Ellison)
 
 class Larry_Ellison extends StatelessWidget {
-  const Larry_Ellison({super.key});
+  
+final Map<String, String> person = {'name': ' لری الیسون'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -230,12 +289,18 @@ class Larry_Ellison extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['name']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -249,7 +314,16 @@ class Larry_Ellison extends StatelessWidget {
 ////555555وارن بافت (Warren Buffett)
 
 class Warren_Buffet extends StatelessWidget {
-  const Warren_Buffet({super.key});
+  
+final Map<String, String> person = {'name': ' وارن بافت'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -292,12 +366,18 @@ class Warren_Buffet extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['وارت بافت']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -311,7 +391,16 @@ class Warren_Buffet extends StatelessWidget {
 ////66666مارک زاکربرگ (Mark Zuckerberg)
 
 class Mark_Zuckerberg extends StatelessWidget {
-  const Mark_Zuckerberg({super.key});
+  
+final Map<String, String> person = {'name': ' مارک زاکربرگ'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -353,12 +442,18 @@ class Mark_Zuckerberg extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['مارک زاکربرگ']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -372,7 +467,16 @@ class Mark_Zuckerberg extends StatelessWidget {
 //////77777بیل گیتس (Bill Gates)
 
 class Bill_Gates extends StatelessWidget {
-  const Bill_Gates({super.key});
+  
+final Map<String, String> person = {'name': ' بیل گیتس'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -414,12 +518,18 @@ class Bill_Gates extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['بیل گیتس']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -433,7 +543,16 @@ class Bill_Gates extends StatelessWidget {
 //////88888لری پیج (Larry Page)
 
 class Larry_page extends StatelessWidget {
-  const Larry_page({super.key});
+ 
+final Map<String, String> person = {'name': ' لری پیچ'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -474,12 +593,18 @@ class Larry_page extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['لری پیچ']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -493,7 +618,16 @@ class Larry_page extends StatelessWidget {
 ///999 استیو بالمر (Steve Ballmer)
 
 class Steve_Ballmer extends StatelessWidget {
-  const Steve_Ballmer({super.key});
+  
+final Map<String, String> person = {'name': ' استیو بالمر'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -534,12 +668,18 @@ class Steve_Ballmer extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['استیو بالمر']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],
@@ -553,7 +693,16 @@ class Steve_Ballmer extends StatelessWidget {
 ////10سرگی برین (Sergey Brin)-
 
 class Sergey_Brin extends StatelessWidget {
-  const Sergey_Brin({super.key});
+  
+final Map<String, String> person = {'name': 'سرگی برین'};
+
+Future<void> _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -590,12 +739,18 @@ class Sergey_Brin extends StatelessWidget {
                   Container(
                     width: 200,
                     color: Color.fromARGB(255, 39, 39, 41),
-                    child: Text(
-                      "More Details....",
-                      style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold),
+                    child: GestureDetector(onTap: () {
+                         final url =
+                  'https://www.google.com/search?q=${person['سرگی برین']}';
+              _launchURL(url);
+                      },
+                      child: Text(
+                        "More Details....",
+                        style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold),
+                      ),
                     ),
                   )
                 ],

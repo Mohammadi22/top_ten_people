@@ -39,7 +39,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 'assets/sont.jpg',
               ),
             ),
-            // SizedBox(height: 15,),
+            SizedBox(height: 15,),
             Text(
               "Abdullah Mohammadi",
               style: TextStyle(fontWeight: FontWeight.bold),

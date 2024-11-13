@@ -93,7 +93,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                      leading: CircleAvatar(backgroundImage: AssetImage('assets/1372989_665.jpg'),
-                     radius: 100,
+                     radius: 70,
                      ),
                       title: Center(
                         child: Text(
@@ -116,7 +116,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/jf.jpg'),
-                       radius: 100,
+                       radius: 70,
                       ),
                       
                       title: Center(
@@ -140,7 +140,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/bernard.jpg'),
-                       radius: 100,
+                       radius: 70,
                       ),
                       title: Center(
                         child: Text(
@@ -163,7 +163,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/Larry-Ellison-7.webp'),
-                      radius: 100.0,
+                      radius: 70.0,
                       ),
                       title: Center(
                         child: Text(
@@ -186,7 +186,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/tt.jpg'),
-                      radius: 100.0,),
+                      radius: 70.0,),
                       title: Center(
                         child: Text(
                           " وارن بافت",
@@ -208,7 +208,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/Mark_.jpg'),
-                      radius: 100.0,
+                      radius: 70.0,
                       ),
                       title: Center(
                         child: Center(
@@ -233,7 +233,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/bill-gates3501.jpg'),
-                      radius: 100.0,
+                      radius: 70.0,
                       ),
                       title: Center(
                         child: Text(
@@ -256,7 +256,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/larry_page.jpg'),
-                      radius: 100.0,
+                      radius: 70.0,
                       ),
                       title: Center(
                         child: Text(
@@ -279,7 +279,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/steven.jpg'),
-                      radius: 100.0),
+                      radius: 70.0),
                       title: Center(
                         child: Text(
                           "استیو بالمر",
@@ -301,7 +301,7 @@ class _HomeState extends State<Home> {
                     child: ListTile(
                       trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/sergi-berin.webp'),
-                      radius: 100.0,
+                      radius: 70,
                       ),
                       title: Center(
                         child: Text(
