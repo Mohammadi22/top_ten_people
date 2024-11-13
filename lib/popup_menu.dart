@@ -13,7 +13,7 @@ class About_me extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
-              child: Image.asset('assets/you.jpg')
+              child: Image.asset('assets/you.jpg',width: 100,height: 100,)
 
             ),
             SizedBox(height: 10,),
@@ -38,3 +38,25 @@ class About_me extends StatelessWidget {
     ) ;
   }
 }
+
+
+
+
+// class jjj extends StatelessWidget {
+//   const jjj({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: ListView(
+//         children: [
+//           GestureDetector(
+//             child: ListTile(
+//               title: Text("dddd"),
+//             ),
+//           )
+//         ],
+//       ),
+//     );
+//   }
+// }
