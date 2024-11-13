@@ -161,7 +161,7 @@ class _HomeState extends State<Home> {
                   },
                   child: Card(
                     child: ListTile(
-                      trailing: Icon(Icons.line_axis),
+                      trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/Larry-Ellison-7.webp'),
                       radius: 100.0,
                       ),
@@ -184,7 +184,7 @@ class _HomeState extends State<Home> {
                   },
                   child: Card(
                     child: ListTile(
-                      trailing: Icon(Icons.line_axis),
+                      trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/tt.jpg'),
                       radius: 100.0,),
                       title: Center(
@@ -206,7 +206,7 @@ class _HomeState extends State<Home> {
                   },
                   child: Card(
                     child: ListTile(
-                      trailing: Icon(Icons.line_axis),
+                      trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/Mark_.jpg'),
                       radius: 100.0,
                       ),
@@ -231,7 +231,7 @@ class _HomeState extends State<Home> {
                   },
                   child: Card(
                     child: ListTile(
-                      trailing: Icon(Icons.line_axis),
+                      trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/bill-gates3501.jpg'),
                       radius: 100.0,
                       ),
@@ -254,7 +254,7 @@ class _HomeState extends State<Home> {
                   },
                   child: Card(
                     child: ListTile(
-                      trailing: Icon(Icons.line_axis),
+                      trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/larry_page.jpg'),
                       radius: 100.0,
                       ),
@@ -277,7 +277,7 @@ class _HomeState extends State<Home> {
                   },
                   child: Card(
                     child: ListTile(
-                      trailing: Icon(Icons.line_axis),
+                      trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/steven.jpg'),
                       radius: 100.0),
                       title: Center(
@@ -299,7 +299,7 @@ class _HomeState extends State<Home> {
                   },
                   child: Card(
                     child: ListTile(
-                      trailing: Icon(Icons.line_axis),
+                      trailing: Icon(Icons.chevron_right),
                       leading: CircleAvatar(backgroundImage: AssetImage('assets/sergi-berin.webp'),
                       radius: 100.0,
                       ),
