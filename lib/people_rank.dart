@@ -298,7 +298,7 @@ Future<void> _launchURL(String url) async {
                         "More Details....",
                         style: TextStyle(
                             fontSize: 20,
-                            color: Colors.white,
+                            color: const Color.fromARGB(255, 182, 134, 134),
                             fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -368,7 +368,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person['وارت بافت']}';
+                  'https://www.google.com/search?q=${person[' name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -444,7 +444,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person['مارک زاکربرگ']}';
+                  'https://www.google.com/search?q=${person[' name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -520,7 +520,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person['بیل گیتس']}';
+                  'https://www.google.com/search?q=${person[' name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -595,7 +595,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person['لری پیچ']}';
+                  'https://www.google.com/search?q=${person[' name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -670,7 +670,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person['استیو بالمر']}';
+                  'https://www.google.com/search?q=${person[' name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -741,7 +741,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person['سرگی برین']}';
+                  'https://www.google.com/search?q=${person['name']}';
               _launchURL(url);
                       },
                       child: Text(
