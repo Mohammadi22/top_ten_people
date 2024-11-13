@@ -254,7 +254,7 @@ Future<void> _launchURL(String url) async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 174, 140, 233),
         title: Center(
             child: Text(
           "لری الیسون",
@@ -315,7 +315,7 @@ Future<void> _launchURL(String url) async {
 
 class Warren_Buffet extends StatelessWidget {
   
-final Map<String, String> person = {'name': ' وارن بافت'};
+final Map<String, String> person = {'name': 'وارن بافت'};
 
 Future<void> _launchURL(String url) async {
     if (await canLaunch(url)) {
@@ -329,7 +329,7 @@ Future<void> _launchURL(String url) async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 174, 140, 233),
         title: Center(
             child: Text(
           "وارن بافت",
@@ -368,7 +368,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person[' name']}';
+                  'https://www.google.com/search?q=${person['name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -406,7 +406,7 @@ Future<void> _launchURL(String url) async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 174, 140, 233),
         title: Center(
             child: Text(
           "مارک زاکربرگ",
@@ -444,7 +444,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person[' name']}';
+                  'https://www.google.com/search?q=${person['name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -482,15 +482,15 @@ Future<void> _launchURL(String url) async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          backgroundColor: Colors.blue,
-          title: Text(
+          backgroundColor: Color.fromARGB(255, 174, 140, 233),
+          title: Center(child:  Text(
             "بیل گیتس",
             style: TextStyle(
               fontSize: 40,
               color: Colors.black,
               fontWeight: FontWeight.bold,
             ),
-          )),
+          ))),
       body: Padding(
           padding: EdgeInsets.all(5),
           child: ListView(
@@ -520,7 +520,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person[' name']}';
+                  'https://www.google.com/search?q=${person['name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -558,7 +558,7 @@ Future<void> _launchURL(String url) async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 174, 140, 233),
         title: Center(
             child: Text(
           "لری پیچ",
@@ -595,7 +595,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person[' name']}';
+                  'https://www.google.com/search?q=${person['name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -633,7 +633,7 @@ Future<void> _launchURL(String url) async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 174, 140, 233),
         title: Center(
             child: Text(
           "استیو بالمر",
@@ -670,7 +670,7 @@ Future<void> _launchURL(String url) async {
                     color: Color.fromARGB(255, 39, 39, 41),
                     child: GestureDetector(onTap: () {
                          final url =
-                  'https://www.google.com/search?q=${person[' name']}';
+                  'https://www.google.com/search?q=${person['name']}';
               _launchURL(url);
                       },
                       child: Text(
@@ -708,7 +708,7 @@ Future<void> _launchURL(String url) async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
+        backgroundColor: Color.fromARGB(255, 174, 140, 233),
         title: Center(
             child: Text(
           "سرگی برین",

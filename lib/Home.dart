@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:top_ten_rich_people_in_world/people_rank.dart';
 import 'package:top_ten_rich_people_in_world/popup_menu.dart';
-
+import 'package:share_plus/share_plus.dart';
 class Home extends StatefulWidget {
   const Home({super.key});
 
@@ -14,6 +14,8 @@ class _HomeState extends State<Home> {
 
   @override
   Widget build(BuildContext context) {
+     final String appLink = 'https://play.google.com/store/apps/details?id=com.example.tentoprich';
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
@@ -31,10 +33,14 @@ class _HomeState extends State<Home> {
             PopupMenuButton(
                 itemBuilder: (context) => [
                       PopupMenuItem(
-                        child: Text(
-                          "Share the app",
-                          style: TextStyle(
-                            color: Colors.blue,
+                        child: GestureDetector(onTap: () {
+                          Share.share('Check out this amazing app: $appLink');
+                        },
+                          child: Text(
+                            "Share the app",
+                            style: TextStyle(
+                              color: Colors.blue,
+                            ),
                           ),
                         ),
                       ),
