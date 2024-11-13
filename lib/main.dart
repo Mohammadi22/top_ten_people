@@ -33,8 +33,8 @@ class _SplashScreenState extends State<SplashScreen> {
         body: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        CircleAvatar(maxRadius: 80,
-       child: Image.asset('assets/sont.jpg'),
+        CircleAvatar(radius: 80.0,
+       backgroundImage: AssetImage('assets/sont.jpg',),
         ),
         // SizedBox(height: 15,),
         Text("Abdullah Mohammadi",style: TextStyle(fontWeight: FontWeight.bold),),
