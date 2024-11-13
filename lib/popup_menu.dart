@@ -25,8 +25,6 @@ class About_me extends StatelessWidget {
                   Container(
                       child: Image.asset(
                     'assets/you.jpg',
-                    width: 100,
-                    height: 100,
                   )),
                   SizedBox(
                     height: 10,

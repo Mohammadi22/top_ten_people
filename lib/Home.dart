@@ -33,7 +33,9 @@ class _HomeState extends State<Home> {
             PopupMenuButton(
                 itemBuilder: (context) => [
                       PopupMenuItem(
-                        child: GestureDetector(onTap: () {
+                        child: GestureDetector(onTap: () {setState(() {
+                          
+                        });
                           Share.share('Check out this amazing app: $appLink');
                         },
                           child: Text(
